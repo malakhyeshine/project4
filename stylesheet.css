@@ -1,0 +1,164 @@
+.topnav {
+background-color: #000;
+overflow: hidden;
+	}
+
+	.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+	font-family:Harry P Regular;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+#body{
+	background-image: url("http://www.obaasima.com/i/2017/04/harry-potter-ravenclaw-wallpapers-high-definition.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#body2{
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/f8/cc/c6/f8ccc66683808207b0924ecc95f3e2f3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+
+	color: white;
+	text-align: center;
+
+	font-size: 55px;
+
+	font-family: Harry P Regular;
+
+}
+
+p {
+
+	color: white;
+
+	font-family: Harry P Regular;
+
+	font-size: 35px;
+
+	
+
+}
+
+h2 {
+
+	color: black;
+
+	font-size: 50px;
+
+	font-family: Harry P Regular;
+p
+}
+
+h3 {
+
+	color: white;
+
+	font-size: 50px;
+
+	font-family: Harry P Regular;
+	border-bottom: white double;
+	
+
+}
+
+
+#div {
+		float: left;
+		border: gold double;
+		margin-right: 30px;
+}
+
+#div2 {
+	float: right;
+	border: gold double;
+}
+#div3{
+	float: center;
+	border: gold double;
+}
+#firstDiv {
+	float: left;
+	margin: 10px;
+}
+#secondDiv {
+	float: left;
+	display: circle;
+	margin:10px;
+	padding-right: 30px;
+	padding-left: 40px;
+}
+#thirdDiv {
+	float: left;
+	margin: 10px;
+}
+#fourthDiv {
+	float: left;
+	margin: 10px;
+}
+#fifthDiv {
+	float: right;
+	margin: 10px;
+	
+}
+#propaganda {
+	float: left;
+	margin: 30px;
+}
+#img {
+	border-radius: 100%;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid gold; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+	font-family: Harry P Regular;
+}
+#button {
+  font: bold 25px Harry P Regular;
+  text-decoration: none;
+  background-color: gold;
+  color: black;
+}
+#button {
+    display: block;
+    width: 25%;
+	text-align: center;
+    line-height: 2em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover {
+    color: golden rod;
+    background: #eff;
+}
+
+
+
+.container {
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+}
