@@ -1,0 +1,251 @@
+.topnav {
+background-color: #000;
+overflow: hidden;
+	}
+
+	.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+	font-family:Harry P Regular;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#body{
+	background-image: url("HomeB.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#body2{
+	background-image: url("QB.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+
+	color: white;
+	text-align: center;
+
+	font-size: 55px;
+
+	font-family: Harry P Regular;
+
+}
+
+p {
+
+	color: white;
+
+	font-family: Harry P Regular;
+
+	font-size: 35px;
+
+	
+
+}
+
+h2 {
+
+	color: white;
+
+	font-size: 50px;
+
+	font-family: Harry P Regular;
+
+}
+
+h3 {
+
+	color: white;
+
+	font-size: 50px;
+
+	font-family: Harry P Regular;
+	border-bottom: white double;
+	
+
+}
+
+
+#div {
+		float: left;
+		border: gold double;
+		margin-right: 30px;
+}
+
+#div2 {
+	float: right;
+	border: gold double;
+}
+#div3{
+	float: center;
+	border: gold double;
+}
+
+#propaganda {
+	float: left;
+	margin: 30px;
+}
+#img {
+	border-radius: 100%;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid gold; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+	font-family: Harry P Regular;
+}
+#button {
+  font: bold 25px Harry P Regular;
+  text-decoration: none;
+  background-color: gold;
+  color: black;
+}
+#button {
+    display: block;
+    width: 25%;
+	text-align: center;
+    line-height: 2em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;margin:0}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: above;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 35px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  text-align: center;
+  font-family: Harry P Regular;
+  color: black;
+}
+.text2 {
+  color: #f2f2f2;
+  font-size: 35px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  text-align: center;
+  font-family: Harry P Regular;
+  color:  white;
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+a:hover {
+    color: golden rod;
+    background: #eff;
+}
+
+
+
+.container {
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+}
